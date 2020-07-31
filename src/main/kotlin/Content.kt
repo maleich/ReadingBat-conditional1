@@ -46,40 +46,4 @@ val content =
       }
     }
 
-    java {
-
-      group("Group A") {
-        packageName = "group a"
-        description = "A description"
-
-        challenge("JoinEnds") {
-          description = "This description supports **markdown**"
-        }
-      }
-
-      group("Group 2") {
-        packageName = "group2"
-        description = "A description"
-        includeFiles = "Has*.java"
-      }
-
-    }
-
-    kotlin {
-
-      group("Group1 1") {
-        packageName = "kgroup1"
-        description = "This is a description of Group 1"
-
-        challenge("StringLambda1") {
-          description = "This is a description of StringLambda1"
-          returnType = StringType
-        }
-      }
-
-      group("Group 2") {
-        packageName = "kgroup2"
-        includeFilesWithType = "lambda*.kt" returns StringType
-      }
-    }
-  }
+   
