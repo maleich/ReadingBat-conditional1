@@ -7,7 +7,7 @@ import com.github.readingbat.dsl.readingBatContent
 
 val content =
   readingBatContent {
-    repo = if (isProduction()) GitHubRepo("maleich", "ReadingBat-content") else FileSystemSource("./")
+    repo = if (isProduction()) GitHubRepo(OwnerType.User, "maleich", "ReadingBat-content") else FileSystemSource("./")
 
     python {
 
