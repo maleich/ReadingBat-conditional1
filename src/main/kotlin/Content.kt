@@ -4,6 +4,7 @@ import com.github.readingbat.dsl.ReturnType.BooleanType
 import com.github.readingbat.dsl.ReturnType.StringType
 import com.github.readingbat.dsl.isProduction
 import com.github.readingbat.dsl.readingBatContent
+import com.github.pambrose.common.util.OwnerType
 
 val content =
   readingBatContent {
