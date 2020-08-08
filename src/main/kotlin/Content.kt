@@ -1,10 +1,10 @@
 import com.github.pambrose.common.util.FileSystemSource
 import com.github.pambrose.common.util.GitHubRepo
 import com.github.pambrose.common.util.OwnerType
-import com.github.readingbat.dsl.ReturnType.BooleanType
-import com.github.readingbat.dsl.ReturnType.StringType
+import com.github.readingbat.dsl.ReturnType.*
 import com.github.readingbat.dsl.isProduction
 import com.github.readingbat.dsl.readingBatContent
+
 
 val content =
   readingBatContent {
@@ -41,11 +41,18 @@ val content =
         description = "Miscellaneous practice"
         includeFilesWithType = "slice*.py" returns StringType
       }
-   
+
       group("Variable Types") {
         packageName = "variable_type"
         description = "Identify basic variable types."
         includeFilesWithType = "variable_type*.py" returns StringType
+      }
+
+      group("Loops") {
+        packageName = "loops"
+        description = "While and for loop practice"
+        includeFilesWithType = "while*.py" returns IntType
+
       }
     }
   }
