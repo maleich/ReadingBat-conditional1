@@ -1,7 +1,7 @@
 # @desc Checking to see if a number is equal to another number
 
 def is_equal(x, y):
-    return x > y
+    return x == y
 
 
 def main():
