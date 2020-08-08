@@ -1,7 +1,7 @@
 # @desc Checking to see if a number is less than another number
 
 def less_than(num):
-    x = num < 5
+    x = (num < 5)
     return x
 
 

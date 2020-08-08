@@ -1,6 +1,6 @@
 # @desc Checking to see if a number is equal to another number
 def is_equal(num):
-    x = num == 5
+    x = (num == 5)
     return x
 
 
