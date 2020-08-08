@@ -27,6 +27,7 @@ val content =
         includeFilesWithType = "greater_than*.py" returns BooleanType
         includeFilesWithType = "less_than*.py" returns BooleanType
         includeFilesWithType = "is_equal*.py" returns BooleanType
+        includeFilesWithType = "not_equal*.py" returns BooleanType
       }
 
       group("Strings") {
