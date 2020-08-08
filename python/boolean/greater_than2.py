@@ -1,3 +1,5 @@
+# @desc Checking to see if a number is greater than another number
+
 def greater_than(x, y):
     return x > y
 

@@ -1,10 +1,10 @@
 import com.github.pambrose.common.util.FileSystemSource
 import com.github.pambrose.common.util.GitHubRepo
+import com.github.pambrose.common.util.OwnerType
 import com.github.readingbat.dsl.ReturnType.BooleanType
 import com.github.readingbat.dsl.ReturnType.StringType
 import com.github.readingbat.dsl.isProduction
 import com.github.readingbat.dsl.readingBatContent
-import com.github.pambrose.common.util.OwnerType
 
 val content =
   readingBatContent {
@@ -20,11 +20,13 @@ val content =
           description = "Descriptions support **markdown**"
           returnType = BooleanType
         }
-        
-        challenge("greater_than2"){
-            returnType = BooleanType
+
+        challenge("greater_than2") {
+          returnType = BooleanType
         }
         includeFilesWithType = "greater_than*.py" returns BooleanType
+        includeFilesWithType = "less_than*.py" returns BooleanType
+        includeFilesWithType = "is_equal*.py" returns BooleanType
       }
 
       group("Strings") {

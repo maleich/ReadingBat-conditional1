@@ -1,3 +1,4 @@
+# @desc Checking to see if a number is greater than another number
 def greater_than(num):
     x = (num > 5)
     return x
