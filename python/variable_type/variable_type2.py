@@ -8,6 +8,8 @@ def what_type(g):
         return "str"
     elif "bool" in x:
         return "bool"
+    elif "float" in x:
+        return "float"
 
 
 def main():
