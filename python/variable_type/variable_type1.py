@@ -1,3 +1,5 @@
+# @desc Identify the variable type
+
 def what_type(g):
     x = str(type(g))
     if "int" in x:
