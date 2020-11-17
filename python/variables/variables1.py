@@ -6,10 +6,10 @@ def add_5(num):
 
 
 def main():
-    print(add_5(2.0))
-    print(add_5(2.5))
-    print(add_5(-50.6))
-    print(add_5(-3.0))
+    print(add_5(2))
+    print(add_5(0))
+    print(add_5(-50))
+    print(add_5(-3))
 
 
 if __name__ == '__main__':
