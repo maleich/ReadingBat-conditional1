@@ -1,4 +1,4 @@
-# @desc Variable practice: Determine the value returned by the function.
+# @desc Determine the value returned by the function.
 
 def add_5(num):
     total = num + 5

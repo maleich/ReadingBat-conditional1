@@ -60,7 +60,7 @@ val content =
         description = "Practice working with variables."
 
         challenge("variables1") {
-          description = "Descriptions support **markdown**"
+          //description = "Descriptions support **markdown**"
           returnType = IntType
 
           // includeFilesWithType = "variables*.py" returns IntType
