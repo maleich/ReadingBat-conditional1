@@ -59,7 +59,7 @@ val content =
         packageName = "variables"
         description = "Practice working with variables."
 
-        challenge("variables1.py") {
+        challenge("variables1") {
           description = "Descriptions support **markdown**"
           returnType = IntType
 
