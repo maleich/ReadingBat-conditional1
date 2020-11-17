@@ -31,9 +31,9 @@ val content =
       }
 
       group("Strings") {
-          packageName = "strings"
-          description = "Practicing string operations"
-          includeFilesWithType = "strings*.py" returns StringType
+        packageName = "strings"
+        description = "Practicing string operations"
+        includeFilesWithType = "strings*.py" returns StringType
       }
 
       group("Grab Bag") {
@@ -54,6 +54,23 @@ val content =
         includeFilesWithType = "while*.py" returns IntType
 
       }
+
+      group("Variables") {
+        packageName = "variables"
+        description = "Practice working with variables."
+
+        challenge("variables1.py") {
+          description = "Descriptions support **markdown**"
+          returnType = IntType
+
+          // includeFilesWithType = "variables*.py" returns IntType
+        }
+        challenge("boolean1") {
+          description = "Descriptions support **markdown**"
+          returnType = BooleanType
+        }
+      }
     }
   }
+
    
