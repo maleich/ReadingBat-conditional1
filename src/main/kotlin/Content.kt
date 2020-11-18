@@ -40,6 +40,11 @@ val content =
         packageName = "grab_bag"
         description = "Miscellaneous practice"
         includeFilesWithType = "slice*.py" returns StringType
+
+        challenge("parameters1") {
+          //description = *in exercise*
+          returnType = IntType
+        }
       }
 
       group("Variable Types") {
