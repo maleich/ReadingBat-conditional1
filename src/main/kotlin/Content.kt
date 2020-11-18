@@ -73,7 +73,7 @@ val content =
         }
         challenge("addition4") {
           //description = *in exercise*
-          returnType = IntType
+          returnType = StringType
         }
       }
     }
