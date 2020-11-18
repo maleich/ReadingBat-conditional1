@@ -7,9 +7,9 @@ def add_num(num):
 
 def main():
     print(add_num(2.5))
-    print(add_5(-2))
-    print(add_5(10))
-    print(add_5(-2.5))
+    print(add_num(-2))
+    print(add_num(10))
+    print(add_num(-2.5))
 
 
 if __name__ == '__main__':
