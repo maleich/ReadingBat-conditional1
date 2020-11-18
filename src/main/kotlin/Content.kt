@@ -64,10 +64,9 @@ val content =
           returnType = IntType
 
         }
-        //challenge("addition2") {
-        //description = "Descriptions support **markdown**"
-        //returnType = FloatType
-        //}
+        challenge("addition2") {
+          returnType = IntType //change to FloatType later
+        }
         challenge("addition3") {
           returnType = IntType
         }
