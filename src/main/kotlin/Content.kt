@@ -62,12 +62,13 @@ val content =
         challenge("addition1") {
           //description = *in exercise*
           returnType = IntType
-
         }
         challenge("addition2") {
-          returnType = IntType //change to FloatType later
+          //description = *in exercise*
+          returnType = IntType
         }
         challenge("addition3") {
+          //description = *in exercise*
           returnType = IntType
         }
       }
