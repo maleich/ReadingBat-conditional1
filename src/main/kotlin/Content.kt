@@ -96,6 +96,9 @@ val content =
         challenge("divide1") {
           returnType = IntType  // This should be a float
         }
+        challenge("mod1") {
+          returnType = IntType
+        }
 
       }
     }
