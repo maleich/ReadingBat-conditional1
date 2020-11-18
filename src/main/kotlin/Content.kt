@@ -57,17 +57,19 @@ val content =
 
       group("Variables") {
         packageName = "variables"
-        description = "Practice working with variables."
+        description = "Variables & mathematical operations"
 
-        challenge("variables1") {
-          //description = "Descriptions support **markdown**"
+        challenge("addition1") {
+          //description = *in exercise*
           returnType = IntType
 
-          // includeFilesWithType = "variables*.py" returns IntType
         }
-        challenge("boolean1") {
-          description = "Descriptions support **markdown**"
-          returnType = BooleanType
+        //challenge("addition2") {
+        //description = "Descriptions support **markdown**"
+        //returnType = FloatType
+        //}
+        challenge('addition3') {
+          returnType = IntType
         }
       }
     }
