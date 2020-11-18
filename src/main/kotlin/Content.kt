@@ -42,7 +42,6 @@ val content =
         includeFilesWithType = "slice*.py" returns StringType
 
         challenge("parameters1") {
-          //description = *in exercise*
           returnType = IntType
         }
       }
@@ -70,14 +69,28 @@ val content =
         }
         challenge("addition2") {
           //description = *in exercise*
-          returnType = IntType
+          returnType = IntType  //this wants to be FloatType
         }
         challenge("addition3") {
           //description = *in exercise*
           returnType = IntType
         }
         challenge("addition4") {
-          //description = *in exercise*
+          returnType = StringType
+        }
+        challenge("subtract1") {
+          returnType = IntType
+        }
+        challenge("subtract2") {
+          returnType = IntType  // This wants to be FloatType
+        }
+        challenge("subtract3") {
+          returnType = IntType
+        }
+        challenge("mult1") {
+          returnType = IntType
+        }
+        challenge("mult2") {
           returnType = StringType
         }
       }
