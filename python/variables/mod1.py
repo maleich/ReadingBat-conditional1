@@ -10,6 +10,7 @@ def main():
     print(mod(5, 4))
     print(mod(20, 7))
     print(mod(6, 3))
+    print(mod(3, 5))
     print(mod(22, 9))
     print(mod(5, 2))
 
