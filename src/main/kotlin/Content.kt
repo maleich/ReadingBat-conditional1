@@ -93,6 +93,10 @@ val content =
         challenge("mult2") {
           returnType = StringType
         }
+        challenge("divide1") {
+          returnType = IntType  // This should be a float
+        }
+
       }
     }
   }
