@@ -71,6 +71,10 @@ val content =
           //description = *in exercise*
           returnType = IntType
         }
+        challenge("addition4") {
+          //description = *in exercise*
+          returnType = IntType
+        }
       }
     }
   }
