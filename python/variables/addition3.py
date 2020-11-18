@@ -6,10 +6,11 @@ def adder(val1, val2):
 
 
 def main():
-    print(add_5(2))
-    print(add_5(0))
-    print(add_5(-50))
-    print(add_5(-3))
+    print(adder(2, 3))
+    print(adder(2, -2))
+    print(adder(0, 20))
+    print(adder(-50, 15))
+    print(adder(6, 5))
 
 
 if __name__ == '__main__':
