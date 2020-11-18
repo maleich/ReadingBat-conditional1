@@ -10,6 +10,7 @@ def main():
     print(add_str('3', '2'))
     print(add_str('ca', 't'))
     print(add_str('Athenian', 'Owls'))
+    print(add_str('read ', 'books'))
     print(add_str('5', '-5'))
 
 
