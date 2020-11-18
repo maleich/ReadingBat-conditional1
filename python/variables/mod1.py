@@ -1,4 +1,4 @@
-# @desc Determine the value returned by the function. Pay close attention to data types!
+# @desc Determine the value returned by the function.
 
 def mod(x, y):
     result = x % y
