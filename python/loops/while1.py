@@ -4,7 +4,6 @@ def countup(n):
     total = 0
     while n < 5:
         total = total + n
-        print(total)
         n += 1
     return total
 
