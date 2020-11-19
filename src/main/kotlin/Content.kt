@@ -105,7 +105,9 @@ val content =
         challenge("floor_division1") {
           returnType = IntType
         }
+        includeFilesWithType = "variable_type*.py" returns StringType
       }
+
     }
   }
 
