@@ -46,12 +46,6 @@ val content =
         }
       }
 
-      group("Variable Types") {
-        packageName = "variable_type"
-        description = "Identify basic variable types."
-        includeFilesWithType = "variable_type*.py" returns StringType
-      }
-
       group("Loops") {
         packageName = "loops"
         description = "While and for loop practice"
