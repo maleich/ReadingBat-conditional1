@@ -99,7 +99,12 @@ val content =
         challenge("mod1") {
           returnType = IntType
         }
-
+        challenge("exponent1") {
+          returnType = IntType
+        }
+        challenge("floor_division1") {
+          returnType = IntType
+        }
       }
     }
   }
