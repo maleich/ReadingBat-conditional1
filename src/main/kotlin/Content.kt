@@ -63,7 +63,7 @@ val content =
         }
         challenge("addition2") {
           //description = *in exercise*
-          returnType = IntType  //this wants to be FloatType
+          returnType = FloatType  //this wants to be FloatType
         }
         challenge("addition3") {
           //description = *in exercise*
@@ -76,7 +76,7 @@ val content =
           returnType = IntType
         }
         challenge("subtract2") {
-          returnType = IntType  // This wants to be FloatType
+          returnType = FloatType  // This wants to be FloatType
         }
         challenge("subtract3") {
           returnType = IntType
