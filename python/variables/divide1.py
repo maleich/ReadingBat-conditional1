@@ -7,7 +7,7 @@ def div(x):
 
 def main():
     print(div(2))
-    print(div(-2))
+    print(div(-3))
     print(div(9))
     print(div(10))
 
