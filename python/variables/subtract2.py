@@ -6,9 +6,10 @@ def minus(num):
 
 
 def main():
-    print(minus(5))
-    print(minus(6.5))
-    print(minus(10))
+    print(minus(15))
+    print(minus(2))
+    print(minus(16))
+    print(minus(0))
 
 
 if __name__ == '__main__':
