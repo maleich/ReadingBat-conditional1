@@ -6,10 +6,10 @@ def div(x):
 
 
 def main():
-    print(div(2))
+    print(div(1))
     print(div(-3))
+    print(div(-2.5))
     print(div(9))
-    print(div(10))
     print(div(1.5))
 
 

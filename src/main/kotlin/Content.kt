@@ -88,7 +88,7 @@ val content =
           returnType = StringType
         }
         challenge("divide1") {
-          returnType = FloatType  // This should be a float
+          returnType = FloatType
         }
         challenge("mod1") {
           returnType = IntType
