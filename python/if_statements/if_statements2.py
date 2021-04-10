@@ -1,4 +1,4 @@
-# @desc Check if value is within max_distance units of 0. By Benjie '24
+# @desc Check if value is within max_distance units of 0. By Benji '24
 
 def near(value, max_distance):
     if abs(value) <= max_distance:
