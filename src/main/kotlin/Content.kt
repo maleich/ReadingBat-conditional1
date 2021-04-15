@@ -48,6 +48,9 @@ val content =
         challenge("triangle") {
           returnType = BooleanType
         }
+        challenge("square_root") {
+          returnType = BooleanType
+        }
       }
 
       group("Loops") {
