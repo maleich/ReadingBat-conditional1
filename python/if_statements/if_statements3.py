@@ -1,7 +1,6 @@
 # @desc Predict the result... By Jacob '24
 
 def exponent(num):
-    # have it do stuff
     if num > 20:
         return num ** 2
     return 25

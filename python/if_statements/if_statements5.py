@@ -1,6 +1,6 @@
-# this project can help you to know if your number is odd or even and it only works with number that is under 100
+# @desc Even or odd?
 
-def oddEven(n):  # give your function a name and parameter(s)
+def odd_even(n):  # give your function a name and parameter(s)
     if n < 100:
         return n % 2 == 0
     else:
@@ -8,10 +8,10 @@ def oddEven(n):  # give your function a name and parameter(s)
 
 
 def main():
-    print(oddEven(5))
-    print(oddEven(10))
-    print(oddEven(100))
-    print(oddEven(1001))
+    print(odd_even(5))
+    print(odd_even(10))
+    print(odd_even(100))
+    print(odd_even(1001))
 
 
 if __name__ == '__main__':

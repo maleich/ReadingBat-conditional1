@@ -58,6 +58,28 @@ val content =
 
       }
 
+      group("If Statements") {
+        packageName = "if_statements"
+        description = "If/elif/else"
+        challenge("if_statements1") {
+          returnType = IntType
+        }
+        challenge("if_statements2") {
+          returnType = BooleanType
+        }
+        challenge("if_statements3") {
+          returnType = IntType
+        }
+        challenge("if_statements4") {
+          returnType = IntType
+        }
+        challenge("if_statements5") {
+          returnType = BooleanType
+        }
+
+
+      }
+
       group("Variables") {
         packageName = "variables"
         description = "Variables & mathematical operations"
@@ -81,7 +103,7 @@ val content =
           returnType = IntType
         }
         challenge("subtract2") {
-          returnType = FloatType  // This wants to be FloatType
+          returnType = FloatType
         }
         challenge("subtract3") {
           returnType = IntType
