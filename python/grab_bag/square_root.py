@@ -1,5 +1,6 @@
 # @desc Predict the result
 # @desc by Yuk '24
+# @desc (Note: assume the math package is already imported)
 
 import math
 def square_roots(n):
