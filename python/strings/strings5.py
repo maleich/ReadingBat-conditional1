@@ -1,4 +1,5 @@
-# @desc Function multiplies each string by 5. By Anay '24
+# @desc Function multiplies each string by 5.
+# @desc by Anay '24
 
 def times_5(x):
     return x * 5

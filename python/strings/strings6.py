@@ -1,7 +1,8 @@
-# splitting a word from another word to return the newly splitted word
+# @desc Splitting a word from another word
+# @desc by Savonnah '23
 
-def split(word1, word2):  # splitting the original word1
-    result = word1 - word2
+def split(word1, word2):
+    result = word1.rstrip(word2)
     return result
 
 
