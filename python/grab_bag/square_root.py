@@ -1,5 +1,6 @@
 # @desc Predict the result
-# desc by Yuk '24
+# @desc by Yuk '24
+
 import math
 
 
