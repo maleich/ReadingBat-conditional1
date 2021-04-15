@@ -24,6 +24,7 @@ val content =
         challenge("greater_than2") {
           returnType = BooleanType
         }
+        includeFilesWithType = "boolean*.py" returns BooleanType
         includeFilesWithType = "greater_than*.py" returns BooleanType
         includeFilesWithType = "less_than*.py" returns BooleanType
         includeFilesWithType = "is_equal*.py" returns BooleanType
