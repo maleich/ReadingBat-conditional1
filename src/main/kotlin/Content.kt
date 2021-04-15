@@ -45,12 +45,19 @@ val content =
         challenge("parameters1") {
           returnType = IntType
         }
+        challenge("Fibonacci") {
+          returnType = IntType
+        }
+        challenge("triangle") {
+          returnType = BooleanType
+        }
       }
 
       group("Loops") {
         packageName = "loops"
         description = "While and for loop practice"
         includeFilesWithType = "while*.py" returns IntType
+        includeFilesWithType = "for_loop*" returns StringType
 
       }
 
