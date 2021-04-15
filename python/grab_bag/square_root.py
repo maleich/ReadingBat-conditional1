@@ -2,8 +2,6 @@
 # @desc by Yuk '24
 
 import math
-
-
 def square_roots(n):
     if math.sqrt(n) == (n / 2) and n >= 0:
         return True
