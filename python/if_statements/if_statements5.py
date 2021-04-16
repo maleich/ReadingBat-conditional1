@@ -1,6 +1,6 @@
 # @desc Even or odd?
 
-def odd_even(n):  # give your function a name and parameter(s)
+def odd_even(n):
     if n < 100:
         return n % 2 == 0
     else:
