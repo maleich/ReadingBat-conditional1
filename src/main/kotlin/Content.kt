@@ -71,19 +71,20 @@ val content =
       group("Conditionals") {
         packageName = "conditionals"
         description = "If/elif/else"
-        challenge("if_statements1") {
+
+        challenge("conditionals1") {
           returnType = IntType
         }
-        challenge("if_statements2") {
+        challenge("conditionals2") {
           returnType = BooleanType
         }
-        challenge("if_statements3") {
+        challenge("conditionals3") {
           returnType = IntType
         }
-        challenge("if_statements4") {
+        challenge("conditionals4") {
           returnType = IntType
         }
-        challenge("if_statements5") {
+        challenge("conditionals5") {
           returnType = BooleanType
         }
 
