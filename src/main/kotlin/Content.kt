@@ -68,8 +68,8 @@ val content =
         }
       }
 
-      group("If Statements") {
-        packageName = "if_statements"
+      group("Conditionals") {
+        packageName = "conditionals"
         description = "If/elif/else"
         challenge("if_statements1") {
           returnType = IntType
