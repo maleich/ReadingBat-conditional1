@@ -58,7 +58,14 @@ val content =
         description = "While and for loop practice"
         includeFilesWithType = "while*.py" returns IntType
         includeFilesWithType = "for_loop*" returns StringType
-
+        challenge("for_loop1") {
+          //description = *in exercise*
+          returnType = StringType
+        }
+        challenge("for_loop2") {
+          //description = *in exercise*
+          returnType = IntType
+        }
       }
 
       group("If Statements") {
