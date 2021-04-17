@@ -51,6 +51,9 @@ val content =
         challenge("square_root") {
           returnType = BooleanType
         }
+        challenge("leap_year") {
+          returnType = IntType
+        }
       }
 
       group("Loops") {
