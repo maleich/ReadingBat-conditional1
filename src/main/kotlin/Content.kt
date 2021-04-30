@@ -92,6 +92,7 @@ val content =
         }
 
 
+
       }
 
       group("Variables") {
@@ -139,6 +140,9 @@ val content =
         }
         challenge("floor_division1") {
           returnType = IntType
+        }
+        challenge("math1") {
+          returnType = FloatType
         }
         includeFilesWithType = "variable_type*.py" returns StringType
       }

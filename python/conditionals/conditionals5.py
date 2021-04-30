@@ -1,4 +1,5 @@
 # @desc Even or odd?
+# @desc Yuk '24
 
 def odd_even(n):
     if n < 100:
@@ -9,8 +10,10 @@ def odd_even(n):
 
 def main():
     print(odd_even(5))
-    print(odd_even(10))
-    print(odd_even(100))
+    print(odd_even(22))
+    print(odd_even(122))
+    print(odd_even(75))
+    print(odd_even(98))
     print(odd_even(1001))
 
 
